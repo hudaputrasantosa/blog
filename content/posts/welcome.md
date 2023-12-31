@@ -11,7 +11,7 @@ categories = [
     "basabasi",
 ]
 aliases = ["Introduction to Hugo"]
-draft = true
+draft = false
 +++
 
 # Selamat Datang di Hugo
