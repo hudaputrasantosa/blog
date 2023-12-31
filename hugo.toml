@@ -1,0 +1,70 @@
+baseURL = "https://hudaputrasantosa.github.io/"
+title = "Blog with Huda"
+author = "Huda Putra Santosa"
+copyright = "Huda Putra Santosa"
+paginate = 10
+languageCode = "en"
+theme = "tailwind"
+
+[params]
+  # dir name of your blog content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  [params.header]
+    logo = "logo.webp"
+
+  [params.footer]
+    since = 2023
+    poweredby = true
+
+[params.social_media]
+  [[params.social_media.items]]
+    enabled = true
+    title = 'Facebook'
+    icon = 'brand-facebook'
+    link = 'https://www.facebook.com/hudaputrasantosa/'
+
+  [[params.social_media.items]]
+    enabled = false
+    title = 'Twitter'
+    icon = 'brand-x'
+    link = 'https://twitter.com/__PurPleFoX__'
+
+  [[params.social_media.items]]
+    enabled = true
+    title = 'Instagram'
+    icon = 'brand-instagram'
+    link = 'https://www.instagram.com/hudaputrasantosa.dev/'
+
+  [[params.social_media.items]]
+    enabled = true
+    title = 'LinkedIn'
+    icon = 'brand-linkedin'
+    link = 'https://www.linkedin.com/in/huda-putra-santosa'
+
+  [[params.social_media.items]]
+    enabled = true
+    title = 'Github'
+    icon = 'brand-github'
+    link = 'https://github.com/hudaputrasantosa'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 0
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
